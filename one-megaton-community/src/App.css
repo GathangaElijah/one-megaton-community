@@ -5,21 +5,34 @@ html, body {
 
 .hero-section {
     display: flex;
-    max-width: 90vw;
-    margin: 40px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    max-width: 80%;
+    max-height: 100vh;
+    margin: 40px 40px 0px 80px;
+    padding: 20px 80px 20px 80px;
 }
 
-.hero-content {
-    width: 50%;
-    height: 200px;
+article {
+    flex: 1 auto;
+    margin-right: 20px;
+    max-width: 400px;
+}
+
+article p {
+    color: white;
 }
 
 footer {
-  height: auto;
+  display: block;
+  position: relative;
+  bottom:0px;
+  height: 100%;
   padding: 0;
   margin: 0;
   overflow: hidden;
 }
+
 footer img {
   max-width: 100%;
   height: 100%;
