@@ -4,7 +4,7 @@ function RegistrationForm(){
 
     return (
 <form action="">
-        <div className='main-heading'>Register Today</div>
+        <div className='form-heading'>Register Today</div>
         <p>kicking off in Chicago and Illinois</p>
         <div className="form-elements">
                 <input 
