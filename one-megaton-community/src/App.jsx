@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import footerImage from './assets/footer_image.png';
 import RegistrationForm from './RegistrationForm';
+import CommunityImages from './CommunityImages';
 import './App.css'
 
 function App() {
@@ -25,8 +26,10 @@ function App() {
           </article>
           <RegistrationForm />
       </div>
-
       <footer>
+      <div className='community-section'>
+        <CommunityImages />
+      </div>
         <img src={footerImage} alt="Chicago cityscape" />
       </footer>
     </>
