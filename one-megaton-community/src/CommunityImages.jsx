@@ -7,10 +7,15 @@ import './CommunityImages.css';
 function CommunityImages(){
     return (
         <>
-
-         <div className="community-images">
-            <img src={man2} alt="A white man with beard and glasses" />
-            <img src={blackWoman} alt="A black woman raising her hand" />
+        
+    
+         <div className="container">
+            <div className="image-box">
+                <img src={man2} alt="A white man with beard and glasses" />
+            </div>
+            <div className="image-box">
+                <img src={blackWoman} alt="A black woman raising her hand" />
+            </div>
          </div>
 
         </>
