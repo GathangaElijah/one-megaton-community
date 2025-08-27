@@ -27,9 +27,7 @@ function App() {
           <RegistrationForm />
       </div>
       <footer>
-      <div className='community-section'>
         <CommunityImages />
-      </div>
         <img src={footerImage} alt="Chicago cityscape" />
       </footer>
     </>
