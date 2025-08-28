@@ -5,10 +5,7 @@ form {
     flex-direction: column;
     justify-content: space-around;
     padding: 3%;
-    margin: 5%;
-    margin-top: 0%;
-    max-width: 300px;
-    max-height: 60vh;
+    max-width: 80vw;
 
 }
 form .form-heading {
@@ -17,6 +14,7 @@ form .form-heading {
     margin-bottom: 10px;
     flex:auto;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 form input {
     border: solid 1px lightgrey;
@@ -41,7 +39,7 @@ form button {
     flex:1 auto;
 }
 form .note-better {
-    font-size: 12px;
+    font-size: calc(0.5em + 1vw);
     color: grey;
     flex: 1 auto;
 }
