@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
+
 import footerImage from './assets/footer_image.png';
 import RegistrationForm from './RegistrationForm';
-import CommunityImages from './CommunityImages';
+
+import black_woman from './assets/black_woman.png';
+import man2 from './assets/man2.png';
 import './App.css'
 
 function App() {
@@ -9,6 +12,7 @@ function App() {
   return (
     
     <>
+    <div className='page-wrapper'>
      <div className="hero-section">
         <div className='main-heading'>
           The One Megaton Community
@@ -29,11 +33,16 @@ function App() {
       </div>
 
       <footer>
-        <CommunityImages />
-        <img src={footerImage} alt="Chicago cityscape" />
+        <div className='footer-bg'>
+          <img src={footerImage} alt="Chicago cityscape"/>
+        </div>
+        <div className='community-image' >
+          <img src={man2} alt="A white man with beard and glasses" />
+          <img src={black_woman} alt="A black woman raising her hand"/>
+        </div>
       </footer>
 
-
+    </div>
     </>
   )
 }
